@@ -25,5 +25,11 @@
     "rewrites": [
       {"source": "**", "destination": "/index.html"}
     ]
+  },
+  "emulators": {
+    "database": {
+      "host": "localhost",
+      "port": "9091"
+    }
   }
 }
